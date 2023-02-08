@@ -165,7 +165,7 @@ section {
     transform: translate(-50%, 35%);
     width: 94%;
     padding-inline: 1.3rem;
-    max-width: 650px;
+    max-width: 900px;
 }
 
 .question > h2 {
@@ -328,8 +328,8 @@ footer {
     }
 
     main {
-        padding-top: 8rem;
-        padding-bottom: 15rem;
+        padding-top: 11rem;
+        padding-bottom: 25rem;
     }
 
     section {
@@ -364,12 +364,22 @@ footer {
         flex-basis: 50%;
     }
 
+    .question {
+        padding-block: 5rem;
+    }
+
     .question > h2{
-        font-size: 1.5rem;
+        font-size: 1.8rem;
+    }
+
+    .question > .get-started {
+       width: 350px;
+       padding: 1.5rem;
+       font-size: 1.3rem;
     }
 
     footer {
-        padding: 8rem 5rem 5rem 7rem;
+        padding: 15rem 5rem 10rem 7rem;
     }
 
     .bottom-footer {
@@ -391,6 +401,10 @@ footer {
 
     .social-copyright {
         justify-content: space-between;
+    }
+
+    .social-copyright > p {
+        margin-bottom: -5rem;
     }
 
 }
